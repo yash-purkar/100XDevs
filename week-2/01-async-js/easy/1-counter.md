@@ -11,3 +11,5 @@ setInterval(()=>{
   counter++;
   console.log(counter);
 },1000);
+
+https://replit.com/@YashPurkar/01asynceasy#index.js

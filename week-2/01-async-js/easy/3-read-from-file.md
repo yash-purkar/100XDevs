@@ -34,3 +34,6 @@ console.log("Heavy task done")
 fs.readFile is a async task it is like setTimeout which waits in the webapi until timer is done,
 fs.readFile's callback is wait in the node js enviroment somewhere, (without blocking the main thread) and once file is read it push the callback function in callback quere with the data.
 \*/
+
+
+https://replit.com/@YashPurkar/01asynceasy#index.js

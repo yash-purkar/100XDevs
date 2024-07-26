@@ -22,3 +22,5 @@ fs.readFile("b.txt",'utf-8',(err,data)=>{
 // Both task happens asynchronously
 
 <!-- See the 3-read-from-file.md code explanation for better understanding -->
+
+https://replit.com/@YashPurkar/01asynceasy#index.js

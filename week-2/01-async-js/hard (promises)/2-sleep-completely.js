@@ -5,6 +5,12 @@
  */
 
 function sleep(milliseconds) {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve();
+    }, milliseconds);
+  });
 }
+// May be only sleep sleep function's thread, not the main thread as it goes in webapis
 
 module.exports = sleep;
